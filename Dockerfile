@@ -12,7 +12,7 @@
 ## See the License for the specific language governing permissions and
 ## limitations under the License.
 
-# docker build . --build-arg version=v3.14.0 -t gelartio/nakama:3.14.0
+# docker build . --build-arg version=v3.14.0 -t registry.gitlab.com/gelartio/nakama:3.14.0
 # docker build . --build-arg version="$(git rev-parse --short HEAD)" -t heroiclabs/nakama-prerelease:"$(git rev-parse --short HEAD)"
 
 FROM golang:1.20.6-bullseye as builder
